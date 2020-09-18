@@ -1,7 +1,10 @@
 {
-  "name": "inHelsinki",
+  "name": "inhelsinki",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "axios": "^0.20.0",
     "google-map-react": "^2.1.3",
