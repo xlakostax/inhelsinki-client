@@ -69,7 +69,7 @@ const EventsList = () => {
   // }
 
   const load = async () => {
-    return (await axios.get(`/api/?limit=${limit}&start=${start}`)).data.data
+    return (await axios.get(`https://api-inhelsinki.herokuapp.com/api/?limit=${limit}&start=${start}`)).data.data
     // return (await axios.get(`https://cors-anywhere.herokuapp.com/http://open-api.myhelsinki.fi/v1/events/?limit=${limit}&start=${start}`)).data.data
   }
 
