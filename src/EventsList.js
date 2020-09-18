@@ -57,7 +57,7 @@ const EventsList = () => {
   // }
 
   const getEvents = async () => {
-    return (await axios.get(`https://api-inhelsinki.herokuapp.com/events/?limit=${limit}&start=${start}`)).data.data
+    return (await axios.get(`https://api-inhelsinki.herokuapp.com/api/v1/events/?limit=${limit}&start=${start}`)).data.data
   }
 
   // getEvents().then(res => console.log(res))
