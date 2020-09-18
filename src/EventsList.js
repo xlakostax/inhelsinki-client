@@ -10,7 +10,6 @@ import Header from './components/Header';
 // import MapContainer from './Map/MapContainer';
 // import Navigation from './components/Navigation';
 
-
 const EventsList = () => {
   const [data, setData] = useState([])
   // const [filter, setFilter] = useState({
